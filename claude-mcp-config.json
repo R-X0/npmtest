@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "e2b": {
+      "command": "/usr/bin/node",
+      "args": [
+        "/root/claude-code-test/src/mcp-servers/e2b-mcp-server.js"
+      ],
+      "env": {
+        "E2B_API_KEY": "e2b_1f62e3f8de0ff9a0c6e42aa3adf97fc1829e3385",
+        "NODE_PATH": "/root/claude-code-test/src/mcp-servers/node_modules"
+      }
+    }
+  }
+}
